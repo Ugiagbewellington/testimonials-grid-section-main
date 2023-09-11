@@ -1,0 +1,599 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 70%;
+    margin: 20px auto;
+    background: hsl(0, 0%, 81%);
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+   
+}
+#all-items{
+   margin-bottom: 20px;
+   display: grid;
+   gap:10px;
+   grid-template-columns: repeat(4,1fr);
+}
+.grid-span-2{
+    grid-column: span 2;
+}
+
+.img1{
+    width: 50%;
+    border: 3px solid hsl(0, 0%, 81%);
+    border-radius: 50px;
+    margin:7px 0 0 10px;
+}
+/* this is were i started them in sessions */
+
+.el{
+    padding: 5px 20px 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px 5px hsl(0, 0%, 81%);
+
+}
+
+.sect1{
+    background: url(./images/bg-pattern-quotation.svg) hsl(263, 55%, 52%);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: top right ;
+    color: hsl(0, 0%, 100%);     
+}
+.minp{
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    font-weight: 600;
+    word-spacing: 4px;
+    margin: 10px 0;
+
+ 
+}
+.para{
+    color: hsl(0, 0%, 81%);
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 10px;
+}
+.fig{
+    margin: 12px 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    font-size: 10px;
+    font: 600;
+    color:  hsl(0, 0%, 81%);
+}
+.figcap{
+    margin: 13px 0 0 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.Verified{
+    font-size: 9px;
+    color: hsl(0, 0%, 81%);
+
+}
+.sect2{
+    background: hsl(217, 19%, 35%);
+}
+.mp2{
+    color:  hsl(0, 0%, 100%);
+    font-size: 13px;
+    
+}
+.para2{
+    color: hsl(0, 0%, 81%);
+    text-align: justify;
+    font-size: 9px;
+    line-height: 17px;
+    
+   
+    
+}
+.figcap2{
+    margin: 13px 0 0 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.Verified2{
+    font-size: 9px;
+    color: hsl(0, 0%, 81%); 
+}
+.sect3{
+   background:hsl(0, 0%, 100%);
+}
+.mp3{
+    color:  hsl(217, 19%, 35%);
+    font-size:13px;
+    
+}
+.para3{
+    color:hsl(0, 0%, 52%);
+    text-align: start;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 600;
+    
+   
+    
+}
+.figcap3{
+    margin: 13px 0 0 0;
+    color: hsl(217, 19%, 35%);
+}
+
+.Verified3{
+    font-size: 9px;
+    color: hsl(0, 0%, 81%); 
+}
+.sect4{
+    background: hsl(219, 29%, 14%);
+    font-weight: 600;
+
+}
+.figcap4{
+    margin: 13px 0 0 0;
+    color: hsl(210, 46%, 95%);
+}
+
+.Verified4{
+     margin: 0;
+    font-size: 9px;
+    color: hsl(0, 0%, 81%);
+
+}
+.mp4{
+     margin-top: 15px;
+    color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    text-align: start;
+    word-spacing: 3px;
+}
+.para4{
+    text-align: left;
+    font-size: 9px;
+    font-weight: 600;
+}
+.sect5{
+    background:  hsl(0, 0%, 100%); 
+    font-weight: 600;
+    grid-column-start: 4;
+    grid-row: 1/3;
+    
+}
+.mp5{
+    color:  hsl(217, 19%, 35%);
+    font-size: 13px;
+    
+}
+.para5{
+    color: hsl(0, 0%, 52%);
+    text-align: start;
+    font-size: 10px;
+    line-height: 15px;
+    
+   
+    
+}
+.figcap5 {
+    margin: 13px 0;
+    color: hsl(217, 19%, 35%);
+}
+
+.Verified5{
+    font-size: 9px;
+    color: hsl(0, 0%, 81%); 
+    
+}
+
+
+@media screen and (max-width:750px) {
+    body{
+        background:  hsl(0, 0%, 81%);
+        width: 90%;
+        height: auto;
+        
+    }
+    #all-items{
+        display:inline;
+        padding: 20px;
+        
+
+    }
+    .img1{
+        width: 70%;
+        border: 3px solid hsl(0, 0%, 81%);
+        border-radius: 50px;
+         margin:7px 0 0 10px;}
+    .el{
+        margin: 30px 70px 0 0 ;
+       
+    }
+    .sect1{
+        background: url(./images/bg-pattern-quotation.svg) hsl(263, 55%, 52%);
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-position: top right ;
+        color: hsl(0, 0%, 100%);     
+    }
+    .minp{
+        color: hsl(0, 0%, 100%);
+        font-size: 29px;
+        font-weight: 600;
+        word-spacing: 4px;
+        margin: 10px 0;
+    
+     
+    }
+    .para{
+        margin:30px 0;
+        color: hsl(0, 0%, 81%);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .fig{
+        margin: 12px 0;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: flex-start;
+        font-size: 15px;
+        font: 600;
+        color:  hsl(0, 0%, 81%);
+    }
+    .figcap{
+        margin: 10px 0 0 0;
+        color: hsl(0, 0%, 100%);
+        font-size: 20px;
+    }
+    
+    .Verified{
+        font-size: 15px;
+        color: hsl(0, 0%, 81%);
+    
+    }
+    .sect2{
+        background: hsl(217, 19%, 35%);
+        
+    }
+    .mp2{
+        color:  hsl(0, 0%, 100%);
+        font-size: 28px;
+        line-height: 40px;
+
+        
+    }
+    .para2{
+        color: hsl(0, 0%, 81%);
+        text-align: justify;
+        font-size: 20px;
+        line-height: 30px;
+        
+       
+        
+    }
+    .figcap2{
+        margin: 13px 0 0 0;
+        color: hsl(0, 0%, 100%);
+        font-size: 20px;
+    }
+    
+    .Verified2{
+        font-size: 15px;
+        color: hsl(0, 0%, 81%); 
+    }
+    .sect3{
+       background:hsl(0, 0%, 100%);
+    }
+    .mp3{
+        color:  hsl(217, 19%, 35%);
+        font-size:27px;
+        line-height: 35px;
+        
+    }
+    .para3{
+        color:hsl(0, 0%, 52%);
+        text-align: start;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+        
+       
+        
+    }
+    .figcap3{
+        margin: 13px 0 0 0;
+        color: hsl(217, 19%, 35%);
+        font-size: 20px;
+    }
+    
+    .Verified3{
+        font-size: 16px;
+        color: hsl(0, 0%, 81%); 
+    }
+    .sect4{
+        background: hsl(219, 29%, 14%);
+        font-weight: 600;
+    
+    }
+    .figcap4{
+        margin: 13px 0 0 0;
+        color: hsl(210, 46%, 95%);
+    }
+    
+    .Verified4{
+         margin: 0;
+        font-size: 13px;
+        color: hsl(0, 0%, 81%);
+    
+    }
+    .mp4{
+         margin-top: 15px;
+        color: hsl(210, 46%, 95%);
+        font-size: 23px;
+        text-align: start;
+        word-spacing: 3px;
+        line-height: 30px;
+    }
+    .para4{
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .figcap4{
+        margin: 13px 0;
+        color:hsl(210, 46%, 95%);
+        font-size: 20px;
+    }
+    
+    .Verified4{
+        font-size: 13px;
+        color:hsl(210, 46%, 95%); 
+        
+    }
+    .sect5{
+        background:  hsl(0, 0%, 100%); 
+        font-weight: 600;
+        grid-column-start: 4;
+        grid-row: 1/3;
+        
+    }
+    .mp5{
+        color:  hsl(217, 19%, 35%);
+        font-size: 20px;
+        
+    }
+    .para5{
+        color: hsl(0, 0%, 52%);
+        text-align: start;
+        font-size: 15px;
+        line-height: 25px;
+        
+       
+        
+    }
+    .figcap5 {
+        margin: 13px 0;
+        color: hsl(217, 19%, 35%);
+        font-size: 17px;
+    }
+    
+    .Verified5{
+        font-size: 15px;
+        color: hsl(0, 0%, 81%); 
+        
+    }
+    
+    
+}
+
+@media screen and (max-width:1440px) {
+    body{
+        margin: 25px auto;
+    }
+    
+}
+
+@media screen and (max-width: 376px), (max-width: 821px) {
+
+    body{
+        background:  hsl(0, 0%, 81%);
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+        
+        
+    }
+    #all-items{
+        display:inline;
+        inline-size: auto;
+        padding: 10px;
+
+}
+.img1{
+    width: 50%;
+    border: 3px solid hsl(0, 0%, 81%);
+    border-radius: 50px;
+     margin:7px 0 0 5px;}
+.el{
+    width: 70%;
+    margin: 20px 0 0 50px;
+
+   
+}
+.sect1{
+    background: url(./images/bg-pattern-quotation.svg) hsl(263, 55%, 52%);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: top right ;
+    color: hsl(0, 0%, 100%);     
+}
+.minp{
+    color: hsl(0, 0%, 100%);
+    font-size: 15.5px;
+    font-weight: 600;
+    word-spacing: 4px;
+    margin: 10px 0;
+
+ 
+}
+.para{
+    margin:20px 0;
+    color: hsl(0, 0%, 81%);
+    font-size: 12px;
+    line-height: 16px;
+}
+.fig{
+    margin: 12px 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    font-size: 15px;
+    font: 600;
+    color:  hsl(0, 0%, 81%);
+}
+.figcap{
+    margin: 10px 0 0 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+
+.Verified{
+    font-size: 9px;
+    color: hsl(0, 0%, 81%);
+
+}
+.sect2{
+    background: hsl(217, 19%, 35%);
+    
+}
+.mp2{
+    color:  hsl(0, 0%, 100%);
+    font-size: 15px;
+    line-height: 20px;
+
+    
+}
+.para2{
+    color: hsl(0, 0%, 81%);
+    text-align: justify;
+    font-size: 11px;
+    line-height: 17px;
+    
+   
+    
+}
+.figcap2{
+    margin: 10px 0 0 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+
+.Verified2{
+    font-size: 9px;
+    color: hsl(0, 0%, 81%); 
+}
+.sect3{
+   background:hsl(0, 0%, 100%);
+}
+.mp3{
+    color:  hsl(217, 19%, 35%);
+    font-size:15px;
+    line-height: 19px;
+    
+}
+.para3{
+    color:hsl(0, 0%, 52%);
+    text-align: start;
+    font-size: 11px;
+    line-height: 17px;
+    
+   
+    
+}
+.figcap3{
+    margin: 11px 0 0 0;
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+}
+
+.Verified3{
+    font-size: 9px;
+    color: hsl(0, 0%, 81%); 
+}
+.sect4{
+    background: hsl(219, 29%, 14%);
+    font-weight: 600;
+
+}
+
+
+.mp4{
+     margin-top: 15px;
+    color: hsl(210, 46%, 95%);
+    font-size: 15.5px;
+    text-align: start;
+    word-spacing: 3px;
+    line-height: 19px;
+}
+.para4{
+    text-align: left;
+    font-size: 11px;
+}
+.figcap4{
+    margin: 13px 0 0 0;
+    color:hsl(210, 46%, 95%);
+    font-size: 13px;
+}
+
+.Verified4{
+    font-size: 9px;
+    color:hsl(210, 46%, 95%); 
+    
+}
+.sect5{
+    background:  hsl(0, 0%, 100%); 
+    font-weight: 600;
+    grid-column-start: 4;
+    grid-row: 1/3;
+    
+}
+.mp5{
+    color:  hsl(217, 19%, 35%);
+    font-size: 15px;
+    
+}
+.para5{
+    color: hsl(0, 0%, 52%);
+    text-align: start;
+    font-size: 11.1px;
+    line-height: 15px;
+    margin: 0 0 10px;
+   
+    
+}
+.figcap5 {
+    margin: 10px 0 0 0;
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+}
+
+.Verified5{
+    font-size: 9px;
+    color: hsl(0, 0%, 81%); 
+    
+}
+.attribution{
+    font-size: 10px;
+}
+}
+    
+
+
